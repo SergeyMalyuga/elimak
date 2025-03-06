@@ -1,0 +1,6 @@
+@font-face {
+    font-family: Ponomar;
+    font-weight: 400;
+    src: url('../fonts/Ponomar-Regular.ttf') format('truetype');
+    font-display: swap;
+}
