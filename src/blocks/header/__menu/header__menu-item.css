@@ -1,0 +1,13 @@
+.header__menu-item {
+    font-family: "Open Sans", sans-serif;
+    color: aliceblue;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.header__menu-item:hover {
+    color: #a54c4c;
+    text-decoration: underline;
+}

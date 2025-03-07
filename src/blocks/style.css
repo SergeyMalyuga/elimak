@@ -1,5 +1,14 @@
-body{
+@import url("header/header.css");
+@import url("section/section.css");
+
+body {
+    box-sizing: border-box;
     background-color: #7d6d6d;
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }
 
 p {
@@ -9,9 +18,10 @@ p {
     color: #763d1d;
 }
 
-.small-text{
-    font-size: 50px;
+h1{
+    font-family: Ponomar, sans-serif;
     color: #763d1d;
+    text-align: center;
 }
 
 .box {
