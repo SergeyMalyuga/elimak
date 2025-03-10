@@ -7,8 +7,9 @@ body {
 }
 
 a {
+    font-family: OpenSans, sans-serif;
     text-decoration: none;
-    color: black;
+    color: aliceblue;;
 }
 
 p {

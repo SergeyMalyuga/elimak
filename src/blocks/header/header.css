@@ -2,9 +2,14 @@
 @import url("__menu/header__menu.css");
 @import url("__menu/header__menu-list.css");
 @import url("__menu/header__menu-item.css");
+@import url("__contacts-phone/header__contacts-phone.css");
+@import url("__contacts-email/header__contacts-email.css");
+@import url("__contacts/header__contacts.css");
 
 .header {
     display: flex;
     background-color: #104325;
-    padding-block: 20px;
+    justify-content: space-around;
+    align-items: center;
+    padding-block: 12px;
 }

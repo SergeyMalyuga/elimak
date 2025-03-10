@@ -1,0 +1,21 @@
+.header__contacts-email {
+    position: relative;
+}
+
+.header__contacts-email:hover {
+    color: #BAE249;
+    text-decoration: underline;
+}
+
+.header__contacts-email::before {
+    content: '';
+    position: absolute;
+    background-image: url("../../../images/email.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 18px;
+    height: 18px;
+    inset-inline-start: -25px;
+    inset-block-start: 0;
+}

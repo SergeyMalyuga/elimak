@@ -4,3 +4,10 @@
     src: url('../fonts/Ponomar-Regular.ttf') format('truetype');
     font-display: swap;
 }
+
+@font-face {
+    font-family: OpenSans;
+    font-weight: 400;
+    src: url('../fonts/OpenSans-Regular.ttf') format('truetype');
+    font-display: swap;
+}

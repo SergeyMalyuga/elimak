@@ -1,5 +1,5 @@
 .header__menu-item {
-    font-family: "Open Sans", sans-serif;
+    font-family: OpenSans, sans-serif;
     color: aliceblue;
     font-size: 16px;
     font-style: normal;
@@ -8,6 +8,6 @@
 }
 
 .header__menu-item:hover {
-    color: #a54c4c;
+    color: #BAE249;
     text-decoration: underline;
 }
