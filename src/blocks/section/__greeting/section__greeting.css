@@ -1,5 +1,21 @@
 .section__greeting {
+    position: relative;
+    background-image: url("../../../images/headerBackground.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    margin-bottom: 60px;
+    padding-inline-start: 100px;
+    padding-block: 60px;
+}
 
-    height: 491px;
+.section__greeting::before {
+    content: '';
+    position: absolute;
+    background-color: black;
+    inset: 0;
     width: 100%;
+    opacity: 0.4;
+    z-index: 1;
 }

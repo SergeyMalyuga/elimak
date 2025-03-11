@@ -1,9 +1,40 @@
 @import url("header/header.css");
 @import url("section/section.css");
+@import url("content/content.css");
+@import url("card/card.css");
+@import url("x/x.css");
+
+
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
 
 body {
+    background-color: #104325;
     box-sizing: border-box;
-    background-color: #7d6d6d;
+    min-inline-size: 320px;
+    max-inline-size: 2560px;
+    margin: 0 auto !important;
 }
 
 a {
@@ -12,19 +43,22 @@ a {
     color: aliceblue;;
 }
 
-p {
-   font-family: Ponomar, sans-serif;
-    font-size: 80px;
-    text-align: center;
-    color: #763d1d;
-}
-
 h1{
-    font-family: Ponomar, sans-serif;
-    color: #763d1d;
-    text-align: center;
+    /*font-family: Ponomar, sans-serif;*/
+    /*color: #763d1d;*/
+    /*text-align: center;*/
 }
 
 .box {
     margin: 0 auto;
+}
+
+.visually-hidden {
+    position: absolute;
+    inline-size: 1px;
+    block-size: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    white-space: nowrap;
 }

@@ -1,0 +1,7 @@
+.x {
+    height: 350px;
+    background-image: url("../../images/x.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right 0 bottom 80%;
+}

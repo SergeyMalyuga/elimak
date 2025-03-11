@@ -1,1 +1,5 @@
 @import url('./__greeting/section__greeting.css');
+@import url('./__greeting-title/section__greeting-title.css');
+@import url('./__greeting-text/section__greeting-text.css');
+@import url('./__main-activity-title/__main-activity-title.css');
+@import url('./__main-activity/section__main-activity.css');

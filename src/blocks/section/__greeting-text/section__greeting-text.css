@@ -1,0 +1,15 @@
+.section__greeting-text {
+    position: relative;
+    font-size: 16px;
+    color: #fff;
+    width: 435px;
+    z-index: 2;
+}
+
+
+.section__greeting-text:first-of-type {
+    align-self: center;
+}
+.section__greeting-text:last-of-type{
+    align-self: flex-end;
+}

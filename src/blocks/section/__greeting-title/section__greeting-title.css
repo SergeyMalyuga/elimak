@@ -1,0 +1,8 @@
+.section__greeting-title {
+    position: relative;
+    width: 650px;
+    font-size: 40px;
+    color: aliceblue;
+    z-index: 2;
+    margin: 0 0 30px;
+}
