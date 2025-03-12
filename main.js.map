@@ -1,0 +1,1 @@
+{"version":3,"file":"main.js","mappings":";;AAA2B;AACA","sources":["webpack://webpack-project/./src/index.js"],"sourcesContent":["import './blocks/fonts.css'\nimport './blocks/style.css'\nimport 'normalize.css'\n"],"names":[],"sourceRoot":""}
