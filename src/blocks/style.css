@@ -2,6 +2,9 @@
 @import url("section/section.css");
 @import url("content/content.css");
 @import url("card/card.css");
+@import url("popup/popup.css");
+@import url("popup/_is-opened/popup_is-opened.css");
+@import url("page/__content/page__content.css");
 @import url("x/x.css");
 
 
@@ -44,9 +47,11 @@ a {
 }
 
 h1{
-    /*font-family: Ponomar, sans-serif;*/
-    /*color: #763d1d;*/
-    /*text-align: center;*/
+    /* font-family: Ponomar, sans-serif; */
+
+    /* color: #763d1d; */
+
+    /* text-align: center; */
 }
 
 .box {

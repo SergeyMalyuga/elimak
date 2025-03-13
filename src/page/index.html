@@ -2,67 +2,59 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="../images/favicon.ico" sizes="any">
     <link rel="apple-touch-icon" href="../images/favicon.png">
     <title>Элимак</title>
 </head>
 <body class="page">
-<header class="header">
-    <a href="index.html"><img class="header__logo" src="../images/logo.png" alt="логотип Элимак"></a>
-    <nav class="header__menu">
-        <ul class="header__menu-list">
-            <li><a class="header__menu-item" href="">Каталог</a></li>
-            <li><a class="header__menu-item" href="">Галерея</a></li>
-            <li><a class="header__menu-item" href="">О нас</a></li>
-            <li><a class="header__menu-item" href="">Контакты</a></li>
-        </ul>
-    </nav>
-    <div class="header__contacts">
-        <a href="tel:+7 (910) 750-74-74" class="header__contacts-phone">+7 (910) 750-74-74</a>
-        <a href="mailto:info@elimak.ru" class="header__contacts-email">info@elimak.ru</a>
+<div class="page__content">
+    <header class="header">
+        <a href="index.html"><img class="header__logo" src="../images/logo.png" alt="логотип Элимак"></a>
+        <nav class="header__menu">
+            <ul class="header__menu-list">
+                <li><a class="header__menu-item" href="">Каталог</a></li>
+                <li><a class="header__menu-item" href="">Галерея</a></li>
+                <li><a class="header__menu-item" href="">О нас</a></li>
+                <li><a class="header__menu-item" href="">Контакты</a></li>
+            </ul>
+        </nav>
+        <div class="header__contacts">
+            <a href="tel:+7 (910) 750-74-74" class="header__contacts-phone">+7 (910) 750-74-74</a>
+            <a href="mailto:info@elimak.ru" class="header__contacts-email">info@elimak.ru</a>
+        </div>
+    </header>
+    <main class="content">
+        <section class="section section__greeting">
+            <h1 class="section__greeting-title">Создаём гармонию природы и архитектуры </h1>
+            <p class="section__greeting-text">Архитектурная мастерская "Элимак" - компания, специализирующаяся на выполнении
+                работ по комплексному благоустройству и ландшафтному дизайну от проекта до реализации "под ключ".</p>
+        </section>
+        <section class="section section__main-activity">
+            <ul class="content__list">
+
+            </ul>
+        </section>
+        <section class="x"></section>
+    </main>
+    <div class="popup">
+        <div class="popup__content">
+            <button type="button" class="popup__close"></button>
+            <img class="popup__image" src="../images/landscape-architecture.png">
+        </div>
     </div>
-</header>
-<main class="content">
-    <!--    <p>Сайт находится в разработке...</p>-->
-    <section class="section section__greeting">
-        <h1 class="section__greeting-title">Создаём гармонию природы и архитектуры </h1>
-        <p class="section__greeting-text">Архитектурная мастерская "Элимак" - компания, специализирующаяся на выполнении
-            работ по комплексному благоустройству и ландшафтному дизайну от проекта до реализации "под ключ".</p>
-    </section>
-    <section class="section section__main-activity">
-        <ul class="content__list">
-            <li class="content__list-item">
-                <article class="card content__card">
-                    <img class="card__image" src="../images/landscape-architecture.png">
-                    <div class="card__description">
-                        <h2 class="card__title">Архитектура</h2>
-                        <p class="card__text">Создаём проекты, в которых учтены стиль, практичность и гармония с природой.</p>
-                    </div>
-                    </div>
-                </article>
-            </li>
-            <li class="content__list-item">
-                <article class="card content__card">
-                    <img class="card__image" src="../images/landscape-architecture.png">
-                    <div class="card__description">
-                        <h2 class="card__title">Благоустройство</h2>
-                        <p class="card__text">Занимаемся комплексным благоустройством территорий.</p>
-                    </div>
-                </article>
-            </li>
-            <li class="content__list-item">
-                <article class="card content__card">
-                    <img class="card__image" src="../images/landscape-architecture.png">
-                    <div class="card__description">
-                        <h2 class="card__title">Природный камень</h2>
-                        <p class="card__text">Нашей главной особенностью является активное использование в работе природного камня-гранита, мрамора, травертина и других пород.</p>
-                    </div>
-                </article>
-            </li>
-        </ul>
-    </section>
-    <section class="x"></section>
-</main>
+    <template id="card-template">
+        <li class="content__list-item">
+            <article class="card content__card">
+                <img class="card__image">
+                <div class="card__description">
+                    <h2 class="card__title"></h2>
+                    <p class="card__text"></p>
+                    <button class="card__button">Подробнее</button>
+                </div>
+            </article>
+        </li>
+    </template>
+</div>
 </body>
 </html>

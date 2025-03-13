@@ -2,13 +2,14 @@
 @import url("../card/__description/card__description.css");
 @import url("../card/__title/card__title.css");
 @import url("../card/__text/card__text.css");
+@import url("../card/__button/card__button.css");
+@import url("../card/__button-title/card__button-title.css");
 
 .card {
     display: flex;
     flex-direction: column;
     gap: 5px;
     border: 1px solid #0B1919;
-
     overflow: hidden;
     height: 100%;
 }

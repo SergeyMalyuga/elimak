@@ -1,7 +1,18 @@
 .x {
+    position: relative;
     height: 350px;
-    background-image: url("../../images/x.png");
+    background-image: url("../../images/TEST_4.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: right 0 bottom 80%;
+    background-position: right 18% bottom 50%;
+}
+
+.x::before {
+        content: '';
+        position: absolute;
+        background-color: black;
+        inset: 0;
+        width: 100%;
+        opacity: 0.4;
+        z-index: 1;
 }
