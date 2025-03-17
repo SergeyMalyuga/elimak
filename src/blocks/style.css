@@ -3,6 +3,7 @@
 @import url("content/content.css");
 @import url("card/card.css");
 @import url("popup/popup.css");
+@import url("popup/_is-animated/popup_is-animated.css");
 @import url("popup/_is-opened/popup_is-opened.css");
 @import url("page/__content/page__content.css");
 @import url("x/x.css");
@@ -11,6 +12,10 @@
 *::after,
 *::before {
     box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 h1,
@@ -46,7 +51,7 @@ a {
     color: aliceblue;;
 }
 
-h1{
+h1 {
     /* font-family: Ponomar, sans-serif; */
 
     /* color: #763d1d; */

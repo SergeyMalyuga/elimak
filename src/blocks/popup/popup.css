@@ -3,7 +3,7 @@
 
 .popup {
     font-family: Inter, Arial, sans-serif;
-    display: none;
+    visibility: hidden;
     align-items: center;
     justify-content: center;
     background-color: rgb(0 0 0 / 50%);
@@ -11,4 +11,5 @@
     inset: 0;
     z-index: 10;
     cursor: pointer;
+    opacity: 0;
 }
